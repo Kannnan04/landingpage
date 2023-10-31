@@ -1,0 +1,634 @@
+*{
+    margin: 0px;
+}
+.image img{
+ height: 700px;
+ width: 100%;
+}
+
+/********************/
+.container{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(246, 246, 246);
+    display: flex;
+    margin-top: 20px;
+    
+}
+.container img{
+    height: 150px;
+    margin-top: 25px;
+    margin-left: 20px;
+    border-radius: 10px;
+
+}
+.name p{
+    margin-left: 80px;
+    margin-top: 30px;
+
+}
+
+
+
+/***********feature************/
+
+.feature{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(207, 207, 207);
+}
+.feature h1{
+    text-align: center;
+    padding: 20px;
+}
+.boxes{
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 25%;
+
+}
+.A{
+    background-color: rgb(245, 245, 245);
+    height: 280px;
+    width: 250px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.B{
+    background-color: white;
+    height: 280px;
+    width: 250px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.C{
+    background-color: white;
+    height: 240px;
+    width: 200px;
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.A img{
+    height: 100px;
+    padding-left: 45px;
+    padding-top: 20px;
+}
+.B img{
+    height: 100px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.C img{
+    height: 100px;
+    padding-top: 2px;
+    padding-left: 20px;
+}
+.A p{
+    padding: 20px;
+}
+.B p{
+    padding: 20px;
+}
+.C p{
+    padding-top: 15px;
+}
+
+/**********************picture*******************************/
+
+.box{
+    width: 100%;
+    margin-top: 20px;
+}
+.row1{
+    display: flex;
+}
+.row1 img{
+    height: 250px;
+    width: 380px;
+    
+}
+.row2{
+    display: flex;
+}
+.row2 img{
+    height: 250px;
+    width: 380px;
+    
+}
+.box button{
+    margin-left: 740px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: wheat;
+}
+
+
+/****************our team**************************/
+
+.row{
+    display: flex;
+    margin-top: 50px;
+}
+.row img{
+    height: 200px;
+    width: 200px;
+}
+.pic1 img{
+    border-radius: 100px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.pic2 img{
+    border-radius: 100px;
+    margin-left: 50px;
+    margin-top: 20px;
+ 
+}
+.pic3 img{
+    border-radius: 100px;
+    margin-left: 50px;
+    margin-top: 20px;
+ 
+}
+.pic1{
+    height: 390px;
+    background-color: antiquewhite;
+    width: 300px;
+    margin-left: 230px;
+
+}
+.pic2{
+    height: 390px;
+    background-color: antiquewhite;
+    margin-left: 100px ;
+    width: 300px;
+}
+.pic3{
+    height: 390px;
+    background-color: antiquewhite;
+    margin-left: 100px;
+    width: 300px;
+}
+.pic1 p{
+    padding: 20px;
+}
+.pic2 p{
+    padding: 20px;
+}
+
+.pic3 p{
+    padding: 20px;
+}
+
+/*****************contact *******************/
+
+.contact{
+
+    height: 300px;
+    width: 100%;
+    margin-top: 60px;
+}
+.contact h1{
+    text-align: center;
+}
+.row3{
+    display: flex;
+    margin-left: 600px;
+    margin-top: 50px;
+
+}
+.call{
+    height: 100px;
+    width: 300px;
+    margin-left:-150px;
+}
+.mail{
+    height: 100px;
+    width: 300px;
+    margin-left:200px;
+}
+.fa-solid{
+    font-size: 50px;
+    
+}
+.phone{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: -230px;
+  
+}
+.email{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: -230px;
+}
+.name{
+    margin-left: -50px;
+    margin-top:  30px
+}
+.num{
+    margin-top: 30px;
+    margin-left: -50px;
+}
+
+/***********************************/
+
+.row4{
+    display: flex;
+    margin-left: 600px;
+    margin-top: 50px;
+
+}
+.map{
+    height: 100px;
+    width: 300px;
+    margin-left:-150px;
+}
+.clock{
+    height: 100px;
+    width: 300px;
+    margin-left:180px;
+}
+.fa-solid{
+    font-size: 50px;
+    
+}
+.loc{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: -230px;
+}
+.add{
+    margin-top: 30px;
+    margin-left: -70px;
+}
+.hour{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: -230px;
+}
+.time{
+    margin-left: -120px;
+    margin-top:  30px
+}
+/**********google map***************/
+
+.googlemap img{
+    height: 300px;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 550px;
+}
+
+/****************************/
+form h1{
+    margin-top: 50px;
+}
+.left{
+    float: left;
+    margin-left: 90px;
+    border-radius: 10px;
+    margin-top: 230px;
+}
+.first{
+    border-radius: 10px;
+    outline : none;
+}
+.sec{
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.third{
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.cls{
+   margin-top: 400px;
+   margin-left: -390px;
+   padding: 5px;
+   width: 90px;
+   background-color: cadetblue;
+   border-radius: 10px; 
+
+}
+.camera{
+    height: 400px;
+    width: 600px;
+    float: right;
+    margin-right: 70px;
+    margin-top: -250px;
+}
+
+
+/*******coyright*********/
+
+.copy{
+    height: 40px;
+    width: 100%;
+    background-color: #262626;
+    margin-top: 1100px;
+}
+.copy p{
+    text-align: center;
+    padding: 10px;
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********media querry*****************/
+
+@media screen and (max-width: 500px){
+    .image img{
+        height: 200px;
+        border-radius: 10px;
+    } 
+}
+@media screen and (max-width: 500px){
+    .container{
+        height: 200px;
+        width: 100%;
+        background-color: #7c7848;
+        display: flex;
+        
+    }
+    .container img{
+        height: 100px;
+        margin-top: 50px;
+        margin-left: 20px;
+        border-radius: 10px;
+    
+    }
+    .name p{
+        margin-left: 130px;
+        margin-top: -30px;   
+        padding: 5px; 
+    }
+    
+}
+/************feature******************/
+@media screen and (max-width: 500px){
+    
+.feature{
+    height: 1000px;
+    width: 100%;
+    background-color: rgb(207, 207, 207);
+}
+.feature h1{
+    text-align: center;
+    padding: 20px;
+}
+.boxes{
+    margin-top: 20px;
+    margin-left: 70px;
+    display: block;
+
+
+}
+.A p{
+    padding-left: 30px;
+}
+.B p{
+    padding-left: 20px;
+}
+.C p{
+    padding-left: 20px;
+}
+.B{
+    margin-top: 10px;
+}
+.C{
+    margin-top: 10px
+}
+.B img{
+    padding-left: 30px;
+ 
+}
+}
+
+/***************picture********************/
+@media screen and (max-width: 500px){
+    .box{
+        margin-top: 20px;
+
+    }
+    .row1{
+        display: flex;
+    
+    }
+    .row2{
+        display: flex;
+    }
+    .row1 img{
+        height: 100px;
+        width: 97px;
+    }
+    .row2 img{
+        height:100px;
+        width: 97px;
+    }
+    .box button{
+        margin-left: 160px;
+        width: 50px;
+        border-radius: 10px;
+        background-color: wheat;
+    }
+    
+
+}
+/***************************************/
+
+@media screen and (max-width: 500px){
+    .row{
+        display: block;
+        margin-top: 50px;
+    }  
+    .pic1{
+        height: 390px;
+        background-color: antiquewhite;
+        width: 300px;
+        margin-left: 45px;
+        border-radius: 10px;
+        
+    }
+    .pic2{
+        height: 390px;
+        background-color: antiquewhite;
+        width: 300px;
+        margin-left: 45px;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+    .pic3{
+        height: 390px;
+        background-color: antiquewhite;
+        width: 300px;
+        margin-left: 45px;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+
+     
+}
+/************contact*******************/
+@media screen and (max-width: 500px){
+    
+    .contact{
+        height: 300px;
+        width: 100%;
+        
+    }
+    .contact h1{
+        text-align: center;
+    }
+    
+    .row3{
+        display: flex;
+        margin-left: 600px;
+        margin-top: 50px;
+    
+    }
+    .call{
+        height: 100px;
+        width: 180px;
+        margin-left:-600px;
+    }
+    .mail{
+        height: 100px;
+        width: 200px;
+        margin-left:50px;
+    
+    }
+    .fa-solid{
+        font-size: 30px;
+        margin-left: 10px;
+        
+    }
+    .mail i{
+        margin-left: 30px;
+    }
+    .phone{
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: -130px;
+      
+    }
+    .email{
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: -130px;
+    }
+    .name{
+        margin-left: -112px;
+        margin-top:  50px
+    }
+    .num{
+        margin-top: 30px;
+        margin-left: -50px;
+    }
+    /**********************************/
+
+    .row4{
+        display: flex;
+        margin-left: 150px;
+        margin-top: 30px;
+     
+    }
+    .map{
+        height: 100px;
+        width: 200px;
+        margin-left:-150px;
+        
+    }
+    .loc{
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: -140px;
+    }
+    .add{
+        margin-top: 30px;
+        margin-left: -70px;
+    }
+    .clock{
+        height: 100px;
+        width: 200px;
+        margin-left:20px;
+    }
+    .clock i{
+        margin-left: 30px;
+    }
+    .hour{
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: -130px;
+    }
+    .time{
+        margin-left: -120px;
+        margin-top:  30px
+    }
+    .googlemap img{
+        height: 300px;
+        width: 300px;
+        margin-left: 50px;
+        margin-top: 20px;
+
+    }
+}
+@media screen and (max-width: 500px){
+    .left{
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+    .first{
+        width: 300px;
+    }
+    .sec{
+        width: 300px;
+    }
+    .third{
+        width: 300px;
+    }
+    .cls{
+        margin-top: 19px;
+        margin-left: 120px;
+        width: 130px;
+
+    }
+    .camera{
+        height:300px;
+        width: 100%;
+        margin-top: 80px;
+        margin-left: -90px;
+        margin-right: 0px;
+        
+        
+    }
+}
